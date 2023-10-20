@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Questão 1: Qual é a capital do Brasil?</h1>
+        <p>Selecione a resposta correta:</p>
+
+        <div class="options">
+            <label>
+                <input type="radio" name="resposta" value="A"> São Paulo
+            </label>
+
+            <label>
+                <input type="radio" name="resposta" value="B"> Rio de Janeiro
+            </label>
+
+            <label>
+                <input type="radio" name="resposta" value="C"> Brasília
+            </label>
+
+            <label>
+                <input type="radio" name="resposta" value="D"> Belo Horizonte
+            </label>
+
+            <label>
+                <input type="radio" name="resposta" value="E"> Salvador
+            </label>
+        </div>
+
+        <button id="botao-proxima-pergunta">Próxima Pergunta</button> 
+    </div>
+    <script>localStorage.clear();</script>
+    <script src="codigo.js"></script>
+
+</body>
+</html>
